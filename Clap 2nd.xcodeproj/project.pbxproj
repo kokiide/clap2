@@ -14,6 +14,8 @@
 		8B79E3141EAF53BA008745C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B79E3121EAF53BA008745C7 /* LaunchScreen.storyboard */; };
 		8B79E31F1EAF53BA008745C7 /* Clap_2ndTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B79E31E1EAF53BA008745C7 /* Clap_2ndTests.swift */; };
 		8B79E32A1EAF53BA008745C7 /* Clap_2ndUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B79E3291EAF53BA008745C7 /* Clap_2ndUITests.swift */; };
+		8B79E3391EAF5414008745C7 /* clap-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B79E3371EAF5414008745C7 /* clap-button.png */; };
+		8B79E33A1EAF5414008745C7 /* clap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B79E3381EAF5414008745C7 /* clap.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		8B79E3251EAF53BA008745C7 /* Clap 2ndUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clap 2ndUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B79E3291EAF53BA008745C7 /* Clap_2ndUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clap_2ndUITests.swift; sourceTree = "<group>"; };
 		8B79E32B1EAF53BA008745C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B79E3371EAF5414008745C7 /* clap-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clap-button.png"; sourceTree = "<group>"; };
+		8B79E3381EAF5414008745C7 /* clap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clap.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				8B79E3101EAF53BA008745C7 /* Assets.xcassets */,
 				8B79E3121EAF53BA008745C7 /* LaunchScreen.storyboard */,
 				8B79E3151EAF53BA008745C7 /* Info.plist */,
+				8B79E3371EAF5414008745C7 /* clap-button.png */,
+				8B79E3381EAF5414008745C7 /* clap.wav */,
 			);
 			path = "Clap 2nd";
 			sourceTree = "<group>";
@@ -235,9 +241,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B79E33A1EAF5414008745C7 /* clap.wav in Resources */,
 				8B79E3141EAF53BA008745C7 /* LaunchScreen.storyboard in Resources */,
 				8B79E3111EAF53BA008745C7 /* Assets.xcassets in Resources */,
 				8B79E30F1EAF53BA008745C7 /* Main.storyboard in Resources */,
+				8B79E3391EAF5414008745C7 /* clap-button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
