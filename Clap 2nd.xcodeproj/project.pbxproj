@@ -199,7 +199,7 @@
 				TargetAttributes = {
 					8B79E3051EAF53BA008745C7 = {
 						CreatedOnToolsVersion = 8.3.1;
-						DevelopmentTeam = XT2293QFD9;
+						DevelopmentTeam = 449CT75YYP;
 						ProvisioningStyle = Automatic;
 					};
 					8B79E3191EAF53BA008745C7 = {
@@ -423,8 +423,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = XT2293QFD9;
+				DEVELOPMENT_TEAM = 449CT75YYP;
 				INFOPLIST_FILE = "Clap 2nd/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kokiide.Clap-2nd";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -436,8 +437,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = XT2293QFD9;
+				DEVELOPMENT_TEAM = 449CT75YYP;
 				INFOPLIST_FILE = "Clap 2nd/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kokiide.Clap-2nd";
 				PRODUCT_NAME = "$(TARGET_NAME)";

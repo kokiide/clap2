@@ -9,8 +9,13 @@
 import UIKit
 import AVFoundation
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource
+{
+
+    @IBOutlet var clapPickerView: UIPickerView!
     var audioPlayer: AVAudioPlayer!
+    var soundCount: Int = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -24,6 +29,9 @@ class ViewController: UIViewController {
         } catch {
             print("音楽ファイルが読み込めませんでした")
         }
+        clapPickerView.delegate = self
+        clapPickerView.dataSource = self
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -31,8 +39,29 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    //いくつカテゴリーを持つか
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return 1
+    }
+    
+    //いくつ選択肢を作るか
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return 10
+    }
+    
+    //選択肢に何を表示していくか１
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        return "\(row+1)回"
+    }
+        
+    func pickerView(_pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        soundCount = row
+    }
+    
+    
     @IBAction func playbutton(){
-    audioPlayer.play()
+    audioPlayer.numberOfLoops = soundCount
+        audioPlayer.play()
     }
 
 
